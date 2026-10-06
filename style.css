@@ -1,0 +1,13 @@
+html, body { margin: 0; height: 100%; background: #000; color: #fff; overflow: hidden; overscroll-behavior: none; -webkit-tap-highlight-color: transparent; }
+body { font: 14px/1.15 ui-monospace, "DejaVu Sans Mono", Menlo, Consolas, monospace; user-select: none; }
+pre { margin: 0; font: inherit; text-shadow: 0 0 3px currentColor; }
+#screen { cursor: crosshair; touch-action: none; }  /* touch drags turn the planet, pinches zoom (input.js) */
+/* phones: tapping focuses this invisible field to open the keyboard; 16px stops iOS zooming in on focus */
+#kbd { position: fixed; bottom: 0; left: 0; width: 1px; height: 1px; opacity: 0; border: 0; padding: 0; font-size: 16px; pointer-events: none; }
+#bar { position: fixed; bottom: 0; left: 0; right: 0; color: #fff; background: #000; overflow: hidden; height: 1.15em; }
+#bar a { color: inherit; text-decoration: none; text-shadow: none; }
+/* EGA 16-color palette */
+.c0 { color: #000; } .c1 { color: #0000aa; } .c2 { color: #00aa00; } .c3 { color: #00aaaa; }
+.c4 { color: #aa0000; } .c5 { color: #aa00aa; } .c6 { color: #aa5500; } .c7 { color: #aaaaaa; }
+.c8 { color: #555555; } .c9 { color: #5555ff; } .c10 { color: #55ff55; } .c11 { color: #55ffff; }
+.c12 { color: #ff5555; } .c13 { color: #ff55ff; } .c14 { color: #ffff55; } .c15 { color: #ffffff; }
