@@ -2,6 +2,8 @@
 
 16-color ASCII globe, styled like an 80s terminal program, that you can spin and zoom, where anyone can drop short ephemeral messages on a spot of the planet. Proof of concept.
 
+Live: https://franciscocarloserra.github.io/asciiplanet/
+
     python3 serve.py        # http://localhost:7804
     bun relay.js            # ws://127.0.0.1:7805, message relay
 
