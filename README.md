@@ -1,5 +1,7 @@
 # ASCII Planet
 
+[THE CHAT SERVER IS DOWN] I ran it as a retro local service through a Cloudflare Tunnel, feel free to setup and wire your own deployment 🙂.
+
 16-color ASCII globe, styled like an 80s terminal program, that you can spin and zoom, where anyone can drop short ephemeral messages on a spot of the planet. Proof of concept.
 
 Live: https://franciscocarloserra.github.io/asciiplanet/
